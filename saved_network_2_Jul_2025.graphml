@@ -22,7 +22,7 @@
 <key id="d2" for="graph" attr.name="crs" attr.type="string"/>
 <key id="d1" for="graph" attr.name="created_with" attr.type="string"/>
 <key id="d0" for="graph" attr.name="created_date" attr.type="string"/>
-<graph edgedefault="directed"><data key="d0">2025-07-01 14:46:40</data>
+<graph edgedefault="directed"><data key="d0">2025-07-02 11:12:28</data>
 <data key="d1">OSMnx 2.0.3</data>
 <data key="d2">epsg:4326</data>
 <data key="d3">True</data>
@@ -5259,7 +5259,7 @@
 </edge>
 <edge source="2190683111" target="4228727850" id="0">
   <data key="d9">[423204129, 1260628236]</data>
-  <data key="d10">['track', 'service']</data>
+  <data key="d10">['service', 'track']</data>
   <data key="d12">False</data>
   <data key="d13">[False, True]</data>
   <data key="d14">1134.3838524925532</data>
@@ -6204,7 +6204,7 @@
 </edge>
 <edge source="3032484455" target="11259833587" id="0">
   <data key="d9">[544164473, 299270870]</data>
-  <data key="d10">['pedestrian', 'footway']</data>
+  <data key="d10">['footway', 'pedestrian']</data>
   <data key="d12">False</data>
   <data key="d13">False</data>
   <data key="d14">10.388873761052047</data>
@@ -8837,7 +8837,7 @@
 </edge>
 <edge source="4230186034" target="11523770288" id="0">
   <data key="d9">[544155324, 423410588, 544155325]</data>
-  <data key="d10">['service', 'footway']</data>
+  <data key="d10">['footway', 'service']</data>
   <data key="d12">False</data>
   <data key="d13">[False, True]</data>
   <data key="d14">138.13514003856974</data>
@@ -14240,7 +14240,7 @@
 </edge>
 <edge source="11203892736" target="11203967645" id="0">
   <data key="d9">[1209245698, 1209245699, 1209245702]</data>
-  <data key="d10">['service', 'footway']</data>
+  <data key="d10">['footway', 'service']</data>
   <data key="d12">False</data>
   <data key="d13">[False, True]</data>
   <data key="d14">44.05754707357949</data>
@@ -14265,7 +14265,7 @@
 </edge>
 <edge source="11203967645" target="11203892736" id="0">
   <data key="d9">[1209245698, 1209245699, 1209245702]</data>
-  <data key="d10">['service', 'footway']</data>
+  <data key="d10">['footway', 'service']</data>
   <data key="d12">False</data>
   <data key="d13">[False, True]</data>
   <data key="d14">44.0575470735795</data>
@@ -14873,7 +14873,7 @@
 </edge>
 <edge source="11238024239" target="11238024290" id="0">
   <data key="d9">[1212996338, 208807117]</data>
-  <data key="d10">['pedestrian', 'residential']</data>
+  <data key="d10">['residential', 'pedestrian']</data>
   <data key="d12">False</data>
   <data key="d13">True</data>
   <data key="d14">58.085383923541215</data>
@@ -15650,7 +15650,7 @@
 </edge>
 <edge source="11238024419" target="11238024429" id="0">
   <data key="d9">[1212996394, 1212996396]</data>
-  <data key="d10">['path', 'footway']</data>
+  <data key="d10">['footway', 'path']</data>
   <data key="d12">False</data>
   <data key="d13">False</data>
   <data key="d14">67.3604914053548</data>
@@ -15698,7 +15698,7 @@
 </edge>
 <edge source="11238024421" target="11238024429" id="0">
   <data key="d9">[1212996401, 1212996395, 1212996398]</data>
-  <data key="d10">['service', 'footway']</data>
+  <data key="d10">['footway', 'service']</data>
   <data key="d16">parking_aisle</data>
   <data key="d12">False</data>
   <data key="d13">[False, True]</data>
@@ -15714,7 +15714,7 @@
 </edge>
 <edge source="11238024429" target="11238024419" id="0">
   <data key="d9">[1212996394, 1212996396]</data>
-  <data key="d10">['path', 'footway']</data>
+  <data key="d10">['footway', 'path']</data>
   <data key="d12">False</data>
   <data key="d13">True</data>
   <data key="d14">67.3604914053548</data>
@@ -15722,7 +15722,7 @@
 </edge>
 <edge source="11238024429" target="11238024421" id="0">
   <data key="d9">[1212996401, 1212996395, 1212996398]</data>
-  <data key="d10">['service', 'footway']</data>
+  <data key="d10">['footway', 'service']</data>
   <data key="d12">False</data>
   <data key="d13">[False, True]</data>
   <data key="d14">50.265873268689276</data>
@@ -16899,7 +16899,7 @@
 </edge>
 <edge source="11259833587" target="3032484455" id="0">
   <data key="d9">[544164473, 299270870]</data>
-  <data key="d10">['pedestrian', 'footway']</data>
+  <data key="d10">['footway', 'pedestrian']</data>
   <data key="d12">False</data>
   <data key="d13">True</data>
   <data key="d14">10.388873761052047</data>
@@ -17535,7 +17535,7 @@
 <edge source="11259842743" target="11259842746" id="1">
   <data key="d9">[544155336, 1212996314, 1212996318]</data>
   <data key="d10">service</data>
-  <data key="d16">['driveway', 'parking_aisle']</data>
+  <data key="d16">['parking_aisle', 'driveway']</data>
   <data key="d12">False</data>
   <data key="d13">[False, True]</data>
   <data key="d14">168.1791853072054</data>
@@ -17594,7 +17594,7 @@
 <edge source="11259842746" target="11259842743" id="0">
   <data key="d9">[544155336, 1212996314, 1212996318]</data>
   <data key="d10">service</data>
-  <data key="d16">['driveway', 'parking_aisle']</data>
+  <data key="d16">['parking_aisle', 'driveway']</data>
   <data key="d12">False</data>
   <data key="d13">[False, True]</data>
   <data key="d14">168.17918530720536</data>
@@ -19421,7 +19421,7 @@
 </edge>
 <edge source="11523770288" target="4230186034" id="0">
   <data key="d9">[423410588, 544155324, 544155325]</data>
-  <data key="d10">['service', 'footway']</data>
+  <data key="d10">['footway', 'service']</data>
   <data key="d12">False</data>
   <data key="d13">[False, True]</data>
   <data key="d14">138.13514003856972</data>
